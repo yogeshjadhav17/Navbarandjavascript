@@ -1,0 +1,76 @@
+body{
+    background-color: aqua;
+    margin:0px;
+    padding:0px;
+
+}
+
+.navbar_background{
+
+background-image:url(..\images\backgroundimage.jpg);
+background-size: cover;
+background-position: center;
+width:1000px;
+height:500px;
+}
+
+.background_para{
+    position:relative;
+    top:30%;
+    left:23%;
+    padding:20px;
+
+  height:auto;
+}
+
+.background_para p{
+    color:green;
+    font-size:30px;
+    font-weight: bold;
+    margin:0px;
+    padding:26px 32px;
+    line-height: 20px;
+    height: 500px;
+}
+.nav{
+    color:black;
+    font-size: 18px;
+    text-transform: capitalize;
+    display:inline;
+    padding:15px;
+    border:100px;
+    margin:15px;
+    float:right;
+    line-height: 18px;
+    position: relative;
+}
+.nav li{
+    list-style-type: none;
+    display:inline-block;
+    cursor:pointer;
+    line-height: 18px;
+    font-size:17px;
+    padding:26px 30px;
+    margin:15px;
+}
+
+.nav li:hover {
+    background-color: aqua;
+    color: red;
+    cursor:pointer;
+}
+h2{
+    text-align: center;
+    line-height: 15px;
+    text-transform:capitalize;
+    font-weight: bold;
+}
+
+p{
+    text-align: left;
+    font-size:18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 15px;
+    color: green;
+}
